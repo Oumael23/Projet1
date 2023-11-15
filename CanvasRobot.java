@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.ArrayList;
 
 /**
- * Draws robots on a canvas.
+ * Draws robots on a canvas. hkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
  * 
  * @author Patrick Girard 
  * @version 2021.08
