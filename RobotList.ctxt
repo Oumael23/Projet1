@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RobotList
+comment0.text=\r\n\ Cette\ classe\ repr\u00E9sente\ le\ ROBOT\ FAST\ qui\ bouge\ en\ diagonale.\r\n\ \r\n\ @author\ Oumaima\ EL\ ARBAOUI\r\n\ @version\ 0.01\r\n
+comment1.params=
+comment1.target=RobotList()
+comment1.text=\r\n\ Constructs\ a\ new\ RobotList,\ initializing\ the\ list\ of\ robots.\r\n
+comment2.params=choice
+comment2.target=void\ newRobot(int)
+comment2.text=\r\n\ Creates\ a\ new\ robot\ based\ on\ the\ type\ selected.\r\n\ \ \r\n\ @param\ choice\ Le\ choix\ du\ type\ de\ robot.\r\n\ @param\ choice\ 1\ \=\ RobotFAST\r\n
+comment3.params=
+comment3.target=void\ addAllRobot()
+comment3.text=\r\n\ Ajouter\ automatiquement\ tous\ les\ robots\r\n
+comment4.params=r
+comment4.target=boolean\ robotCollision(Robot)
+comment4.text=\r\n\ Method\ to\ avoid\ collisions\ between\ robots.\r\n\r\n\ @param\ r\ Un\ robot.\r\n\ @return\ True\ si\ une\ collision\ est\ \u00E9vit\u00E9e,\ sinon\ false.\r\n
+comment5.params=
+comment5.target=void\ moveAll()
+comment5.text=\r\n\ Moves\ each\ robot\ in\ the\ list.\r\n\r\n\ @throws\ InterruptedException\ if\ interrupted\ during\ movement.\r\n
+comment6.params=
+comment6.target=void\ moveINFINIT()
+comment6.text=\r\n\ Continuously\ executes\ the\ movement\ of\ each\ robot\ in\ the\ list,\ with\ a\ 1\ second\ pause\ between\ each\ iteration.\r\n\ This\ method\ is\ designed\ for\ indefinite\ execution\ of\ robot\ motion,\ and\ is\ likely\ to\ enter\ an\ infinite\ loop.\r\n\ Collisions\ between\ robots\ are\ managed,\ and\ the\ motion\ is\ interrupted\ in\ the\ event\ of\ a\ collision.\r\n\r\n\ @throws\ InterruptedException\ If\ execution\ is\ interrupted\ during\ movement\ (for\ example,\ with\ a\ thread\ interrupt).\r\n
+comment7.params=x\ y
+comment7.target=boolean\ checkthePosition(int,\ int)
+comment7.text=\r\n\ Checks\ whether\ a\ given\ position\ is\ valid\ and\ avoids\ collisions.\r\n\r\n\ @param\ x\ The\ x\ coordinate.\r\n\ @param\ y\ The\ y\ coordinate.\r\n\ @return\ True\ if\ the\ position\ is\ valid,\ otherwise\ false.\r\n
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RobotFAST
+comment0.text=\r\n\ The\ RobotFAST\ class\ extends\ the\ Robot\ class.\r\n\ It\ represents\ a\ specific\ type\ of\ robot\ with\ movement\ and\ drawing\ capabilities.\r\n\r\n\ @author\:\ EL\ ARBAOUI\ Oumaima\r\n\ @date\:\ 18/10/2023\r\n
+comment1.params=
+comment1.target=RobotFAST()
+comment1.text=\r\n\ Constructor\ for\ RobotFAST\ class.\ Initializes\ the\ robot's\ starting\ properties.\r\n
+comment2.params=
+comment2.target=void\ setNextStep()
+comment2.text=\r\n\ Sets\ the\ next\ step\ for\ the\ robot\ based\ on\ its\ current\ direction.\r\n
+comment3.params=
+comment3.target=void\ avancer()
+comment3.text=\r\n\ Method\ to\ advance\ the\ robot.\ It\ is\ expected\ to\ draw\ the\ robot\ at\ its\ new\ coordinates.\r\n\ Note\:\ The\ drawRobot\ method\ needs\ to\ be\ implemented\ to\ draw\ the\ robot\ at\ the\ given\ (x,\ y)\ position.\r\n
+numComments=4
