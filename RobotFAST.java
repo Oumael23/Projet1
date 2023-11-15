@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * The RobotFAST class extends the Robot class.
  * It represents a specific type of robot with movement and drawing capabilities.
  *
- * @author: EL ARBAOUI Oumaima
+ * @author: EL ARBAOUI Oumaima ggggggggggggggggggggggggggggg
  * @date: 18/10/2023
  */
 public class RobotFAST extends Robot {
